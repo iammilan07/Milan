@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/collegelogo.png"  alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <marquee behavior="" direction=""><b>Wellcome To Milan Website!! Thankyou for visiting</b></marquee>
+        <h1>About Us</h1> 
+    </section>
+
+    <!---------about us content------------>
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+             <h1>We are the Nepal's best college</h1>   
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas placeat maiores eveniet fugit at!</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                
+                
+            </div>
+            <div class="about-col">
+                <img src="image/aboutuss.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+        <!-------Footer-->
+         
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum labore magni illo corrupti tenetur.</p>
+
+            <div class="icons">
+                <a href="https://www.facebook.com/profile.php?id=100042295680045" target="_blank">
+                <i class="fa fa-facebook"></i>
+            </a>
+                <a href="https://www.instagram.com/iammilan__07/" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/iammilan_07" target="_blank">
+                <i class="fa fa-twitter"></i> </a>
+                <a href="https://www.linkedin.com/in/milan-pandey-606062179/" target="_blank">
+                <i class="fa fa-linkedin"></i> </a>
+                <a href="https://www.youtube.com/channel/UC5FPRJilZwSeh-ddPP-V-uA/" target="_blank">
+                    <i class="fa fa-youtube"></i> </a>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Milan Pandey</p>
+        </section>
+
+
+
+
+
+
+
+    
+    <!--------------Javascript for Side Menu-->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>

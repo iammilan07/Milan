@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/collegelogo.png"  alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <marquee behavior="" direction=""><b>Wellcome To Milan Website!! Thankyou for visiting</b></marquee>
+        <h1>Our Certificates & Online Programs For 2021</h1> 
+    </section>
+
+    <!-------------Blog page Content----------------->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="image/certificate.jpg" alt="">
+                <h2>Our Certificates & Online Programs For 2021</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus corporis explicabo nisi dolor, doloribus eaque molestias alias possimus iure commodi. Sed, ab accusamus fuga, sapiente ipsa doloribus itaque optio asperiores consequuntur cumque atque incidunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, aspernatur iste. Et assumenda ipsum exercitationem.</p>
+                    <br>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, quas esse, consectetur magnam corporis repudiandae sit cupiditate in unde perferendis recusandae. Facilis, eaque cupiditate. Voluptatem rerum nisi necessitatibus non aspernatur doloremque nihil? Repellat et, error dicta perferendis minus quibusdam sit ullam culpa vel perspiciatis eos! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum eos suscipit assumenda quasi officiis modi? Laudantium quam provident amet ex?</p>
+                    <br>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus quaerat laborum quam natus maiores numquam deleniti, rem assumenda a cumque dolorum harum, sunt sed beatae magni aliquid dicta doloremque at similique rerum nesciunt sint, aut ullam. Unde exercitationem repudiandae quibusdam minima pariatur saepe accusantium. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam reprehenderit vel sapiente, unde quod esse nesciunt aliquid ex dolore ratione.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae error, nemo esse voluptates voluptate corporis aliquid! Suscipit quisquam, nisi velit aut eaque quo excepturi aperiam officiis sed facilis eos earum quasi molestiae tempora repellat quod ea natus reprehenderit? Amet impedit doloribus commodi sapiente cum est illo ex! Pariatur rerum corporis facilis ullam?</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form action="" class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+
+
+
+
+
+
+
+
+                    
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>20</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>25</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>12</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>30</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+        <!-------Footer-->
+         
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum labore magni illo corrupti tenetur.</p>
+
+            <div class="icons">
+                <a href="https://www.facebook.com/profile.php?id=100042295680045" target="_blank">
+                <i class="fa fa-facebook"></i>
+            </a>
+                <a href="https://www.instagram.com/iammilan__07/" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/iammilan_07" target="_blank">
+                <i class="fa fa-twitter"></i> </a>
+                <a href="https://www.linkedin.com/in/milan-pandey-606062179/" target="_blank">
+                <i class="fa fa-linkedin"></i> </a>
+                <a href="https://www.youtube.com/channel/UC5FPRJilZwSeh-ddPP-V-uA/" target="_blank">
+                    <i class="fa fa-youtube"></i> </a>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Milan Pandey</p>
+        </section>
+
+
+
+
+
+
+
+    
+    <!--------------Javascript for Side Menu-->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
